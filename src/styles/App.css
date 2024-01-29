@@ -1,0 +1,70 @@
+
+body {
+  display: flex;
+  background-color: #61dafb;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  margin-top: 35vh;
+  width: 300px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.title{
+  font-size: large;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+p{
+  margin-left: 3px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  background-color: aliceblue;
+  height: 5vh;
+  margin-bottom: 2px;
+}
+
+.imgc{
+ 
+}
+
+.trigger {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* p{
+  margin-bottom: 15px;
+} */
+
+img {
+  height: 20px;
+  width: 20px;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+  height: 20px;
+  width: 20px;
+  margin-top: 7%;
+  margin-right: 6px;
+  cursor: pointer;
+}
